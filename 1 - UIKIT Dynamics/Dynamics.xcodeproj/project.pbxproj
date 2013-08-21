@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		275335C11793135700945E7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275335C01793135700945E7B /* UIKit.framework */; };
+		275335C31793135700945E7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275335C21793135700945E7B /* Foundation.framework */; };
+		275335C51793135700945E7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275335C41793135700945E7B /* CoreGraphics.framework */; };
+		275335CB1793135700945E7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 275335C91793135700945E7B /* InfoPlist.strings */; };
+		275335CD1793135700945E7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275335CC1793135700945E7B /* main.m */; };
+		275335D11793135700945E7B /* ICFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 275335D01793135700945E7B /* ICFAppDelegate.m */; };
+		275335D31793135700945E7B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 275335D21793135700945E7B /* Default.png */; };
+		275335D51793135700945E7B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275335D41793135700945E7B /* Default@2x.png */; };
+		275335D71793135700945E7B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275335D61793135700945E7B /* Default-568h@2x.png */; };
+		275335DA1793135700945E7B /* ICFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275335D91793135700945E7B /* ICFViewController.m */; };
+		275335DD1793135700945E7B /* ICFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 275335DB1793135700945E7B /* ICFViewController.xib */; };
+		27AF2342179314DC00A835D9 /* ICFGravityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF2340179314DC00A835D9 /* ICFGravityViewController.m */; };
+		27AF2343179314DC00A835D9 /* ICFGravityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF2341179314DC00A835D9 /* ICFGravityViewController.xib */; };
+		27AF2346179315A100A835D9 /* Emp.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AF2344179315A100A835D9 /* Emp.png */; };
+		27AF2347179315A100A835D9 /* DF.png in Resources */ = {isa = PBXBuildFile; fileRef = 27AF2345179315A100A835D9 /* DF.png */; };
+		27AF234B1793183D00A835D9 /* ICFCollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF23491793183D00A835D9 /* ICFCollisionViewController.m */; };
+		27AF234C1793183D00A835D9 /* ICFCollisionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF234A1793183D00A835D9 /* ICFCollisionViewController.xib */; };
+		27AF235017932AA700A835D9 /* ICFAttachmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF234E17932AA700A835D9 /* ICFAttachmentsViewController.m */; };
+		27AF235117932AA700A835D9 /* ICFAttachmentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF234F17932AA700A835D9 /* ICFAttachmentsViewController.xib */; };
+		27AF235A1793389700A835D9 /* ICFSpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF23581793389700A835D9 /* ICFSpringViewController.xib */; };
+		27AF235B1793389700A835D9 /* ICFSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF23591793389700A835D9 /* ICFSpringViewController.m */; };
+		27AF235F1793396500A835D9 /* ICFSnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF235D1793396500A835D9 /* ICFSnapViewController.m */; };
+		27AF23601793396500A835D9 /* ICFSnapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF235E1793396500A835D9 /* ICFSnapViewController.xib */; };
+		27AF236417933DC000A835D9 /* ICFPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF236217933DC000A835D9 /* ICFPropertiesViewController.m */; };
+		27AF236517933DC000A835D9 /* ICFPropertiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF236317933DC000A835D9 /* ICFPropertiesViewController.xib */; };
+		27AF236917933FC600A835D9 /* ICFForceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AF236717933FC600A835D9 /* ICFForceViewController.m */; };
+		27AF236A17933FC600A835D9 /* ICFForceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27AF236817933FC600A835D9 /* ICFForceViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		275335BD1793135700945E7B /* Dynamics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dynamics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		275335C01793135700945E7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		275335C21793135700945E7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		275335C41793135700945E7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		275335C81793135700945E7B /* Dynamics-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dynamics-Info.plist"; sourceTree = "<group>"; };
+		275335CA1793135700945E7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		275335CC1793135700945E7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		275335CE1793135700945E7B /* Dynamics-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dynamics-Prefix.pch"; sourceTree = "<group>"; };
+		275335CF1793135700945E7B /* ICFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICFAppDelegate.h; sourceTree = "<group>"; };
+		275335D01793135700945E7B /* ICFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICFAppDelegate.m; sourceTree = "<group>"; };
+		275335D21793135700945E7B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		275335D41793135700945E7B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		275335D61793135700945E7B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		275335D81793135700945E7B /* ICFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICFViewController.h; sourceTree = "<group>"; };
+		275335D91793135700945E7B /* ICFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICFViewController.m; sourceTree = "<group>"; };
+		275335DC1793135700945E7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ICFViewController.xib; sourceTree = "<group>"; };
+		27AF233F179314DC00A835D9 /* ICFGravityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFGravityViewController.h; sourceTree = "<group>"; };
+		27AF2340179314DC00A835D9 /* ICFGravityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFGravityViewController.m; sourceTree = "<group>"; };
+		27AF2341179314DC00A835D9 /* ICFGravityViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFGravityViewController.xib; sourceTree = "<group>"; };
+		27AF2344179315A100A835D9 /* Emp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emp.png; sourceTree = "<group>"; };
+		27AF2345179315A100A835D9 /* DF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DF.png; sourceTree = "<group>"; };
+		27AF23481793183D00A835D9 /* ICFCollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFCollisionViewController.h; sourceTree = "<group>"; };
+		27AF23491793183D00A835D9 /* ICFCollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFCollisionViewController.m; sourceTree = "<group>"; };
+		27AF234A1793183D00A835D9 /* ICFCollisionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFCollisionViewController.xib; sourceTree = "<group>"; };
+		27AF234D17932AA700A835D9 /* ICFAttachmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFAttachmentsViewController.h; sourceTree = "<group>"; };
+		27AF234E17932AA700A835D9 /* ICFAttachmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFAttachmentsViewController.m; sourceTree = "<group>"; };
+		27AF234F17932AA700A835D9 /* ICFAttachmentsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFAttachmentsViewController.xib; sourceTree = "<group>"; };
+		27AF23571793389700A835D9 /* ICFSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFSpringViewController.h; sourceTree = "<group>"; };
+		27AF23581793389700A835D9 /* ICFSpringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFSpringViewController.xib; sourceTree = "<group>"; };
+		27AF23591793389700A835D9 /* ICFSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFSpringViewController.m; sourceTree = "<group>"; };
+		27AF235C1793396500A835D9 /* ICFSnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFSnapViewController.h; sourceTree = "<group>"; };
+		27AF235D1793396500A835D9 /* ICFSnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFSnapViewController.m; sourceTree = "<group>"; };
+		27AF235E1793396500A835D9 /* ICFSnapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFSnapViewController.xib; sourceTree = "<group>"; };
+		27AF236117933DC000A835D9 /* ICFPropertiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFPropertiesViewController.h; sourceTree = "<group>"; };
+		27AF236217933DC000A835D9 /* ICFPropertiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFPropertiesViewController.m; sourceTree = "<group>"; };
+		27AF236317933DC000A835D9 /* ICFPropertiesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFPropertiesViewController.xib; sourceTree = "<group>"; };
+		27AF236617933FC600A835D9 /* ICFForceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICFForceViewController.h; sourceTree = "<group>"; };
+		27AF236717933FC600A835D9 /* ICFForceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICFForceViewController.m; sourceTree = "<group>"; };
+		27AF236817933FC600A835D9 /* ICFForceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ICFForceViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		275335BA1793135700945E7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275335C11793135700945E7B /* UIKit.framework in Frameworks */,
+				275335C31793135700945E7B /* Foundation.framework in Frameworks */,
+				275335C51793135700945E7B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		275335B41793135700945E7B = {
+			isa = PBXGroup;
+			children = (
+				275335C61793135700945E7B /* Dynamics */,
+				275335BF1793135700945E7B /* Frameworks */,
+				275335BE1793135700945E7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		275335BE1793135700945E7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				275335BD1793135700945E7B /* Dynamics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		275335BF1793135700945E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				275335C01793135700945E7B /* UIKit.framework */,
+				275335C21793135700945E7B /* Foundation.framework */,
+				275335C41793135700945E7B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		275335C61793135700945E7B /* Dynamics */ = {
+			isa = PBXGroup;
+			children = (
+				275335CF1793135700945E7B /* ICFAppDelegate.h */,
+				275335D01793135700945E7B /* ICFAppDelegate.m */,
+				275335D81793135700945E7B /* ICFViewController.h */,
+				275335D91793135700945E7B /* ICFViewController.m */,
+				275335DB1793135700945E7B /* ICFViewController.xib */,
+				27AF233F179314DC00A835D9 /* ICFGravityViewController.h */,
+				27AF2340179314DC00A835D9 /* ICFGravityViewController.m */,
+				27AF2341179314DC00A835D9 /* ICFGravityViewController.xib */,
+				27AF23481793183D00A835D9 /* ICFCollisionViewController.h */,
+				27AF23491793183D00A835D9 /* ICFCollisionViewController.m */,
+				27AF234A1793183D00A835D9 /* ICFCollisionViewController.xib */,
+				27AF234D17932AA700A835D9 /* ICFAttachmentsViewController.h */,
+				27AF234E17932AA700A835D9 /* ICFAttachmentsViewController.m */,
+				27AF234F17932AA700A835D9 /* ICFAttachmentsViewController.xib */,
+				27AF23571793389700A835D9 /* ICFSpringViewController.h */,
+				27AF23591793389700A835D9 /* ICFSpringViewController.m */,
+				27AF23581793389700A835D9 /* ICFSpringViewController.xib */,
+				27AF235C1793396500A835D9 /* ICFSnapViewController.h */,
+				27AF235D1793396500A835D9 /* ICFSnapViewController.m */,
+				27AF235E1793396500A835D9 /* ICFSnapViewController.xib */,
+				27AF236617933FC600A835D9 /* ICFForceViewController.h */,
+				27AF236717933FC600A835D9 /* ICFForceViewController.m */,
+				27AF236817933FC600A835D9 /* ICFForceViewController.xib */,
+				27AF236117933DC000A835D9 /* ICFPropertiesViewController.h */,
+				27AF236217933DC000A835D9 /* ICFPropertiesViewController.m */,
+				27AF236317933DC000A835D9 /* ICFPropertiesViewController.xib */,
+				275335C71793135700945E7B /* Supporting Files */,
+			);
+			path = Dynamics;
+			sourceTree = "<group>";
+		};
+		275335C71793135700945E7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27AF2344179315A100A835D9 /* Emp.png */,
+				27AF2345179315A100A835D9 /* DF.png */,
+				275335C81793135700945E7B /* Dynamics-Info.plist */,
+				275335C91793135700945E7B /* InfoPlist.strings */,
+				275335CC1793135700945E7B /* main.m */,
+				275335CE1793135700945E7B /* Dynamics-Prefix.pch */,
+				275335D21793135700945E7B /* Default.png */,
+				275335D41793135700945E7B /* Default@2x.png */,
+				275335D61793135700945E7B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		275335BC1793135700945E7B /* Dynamics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 275335E01793135700945E7B /* Build configuration list for PBXNativeTarget "Dynamics" */;
+			buildPhases = (
+				275335B91793135700945E7B /* Sources */,
+				275335BA1793135700945E7B /* Frameworks */,
+				275335BB1793135700945E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dynamics;
+			productName = Dynamics;
+			productReference = 275335BD1793135700945E7B /* Dynamics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		275335B51793135700945E7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ICF;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kyle Richter";
+			};
+			buildConfigurationList = 275335B81793135700945E7B /* Build configuration list for PBXProject "Dynamics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 275335B41793135700945E7B;
+			productRefGroup = 275335BE1793135700945E7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				275335BC1793135700945E7B /* Dynamics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		275335BB1793135700945E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275335CB1793135700945E7B /* InfoPlist.strings in Resources */,
+				275335D31793135700945E7B /* Default.png in Resources */,
+				27AF235A1793389700A835D9 /* ICFSpringViewController.xib in Resources */,
+				275335D51793135700945E7B /* Default@2x.png in Resources */,
+				27AF2347179315A100A835D9 /* DF.png in Resources */,
+				27AF23601793396500A835D9 /* ICFSnapViewController.xib in Resources */,
+				27AF235117932AA700A835D9 /* ICFAttachmentsViewController.xib in Resources */,
+				275335D71793135700945E7B /* Default-568h@2x.png in Resources */,
+				27AF2343179314DC00A835D9 /* ICFGravityViewController.xib in Resources */,
+				27AF236A17933FC600A835D9 /* ICFForceViewController.xib in Resources */,
+				27AF236517933DC000A835D9 /* ICFPropertiesViewController.xib in Resources */,
+				27AF234C1793183D00A835D9 /* ICFCollisionViewController.xib in Resources */,
+				275335DD1793135700945E7B /* ICFViewController.xib in Resources */,
+				27AF2346179315A100A835D9 /* Emp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		275335B91793135700945E7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AF2342179314DC00A835D9 /* ICFGravityViewController.m in Sources */,
+				275335CD1793135700945E7B /* main.m in Sources */,
+				27AF235017932AA700A835D9 /* ICFAttachmentsViewController.m in Sources */,
+				27AF234B1793183D00A835D9 /* ICFCollisionViewController.m in Sources */,
+				27AF235B1793389700A835D9 /* ICFSpringViewController.m in Sources */,
+				27AF236917933FC600A835D9 /* ICFForceViewController.m in Sources */,
+				27AF235F1793396500A835D9 /* ICFSnapViewController.m in Sources */,
+				27AF236417933DC000A835D9 /* ICFPropertiesViewController.m in Sources */,
+				275335D11793135700945E7B /* ICFAppDelegate.m in Sources */,
+				275335DA1793135700945E7B /* ICFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		275335C91793135700945E7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275335CA1793135700945E7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		275335DB1793135700945E7B /* ICFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				275335DC1793135700945E7B /* en */,
+			);
+			name = ICFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		275335DE1793135700945E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		275335DF1793135700945E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		275335E11793135700945E7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dynamics/Dynamics-Prefix.pch";
+				INFOPLIST_FILE = "Dynamics/Dynamics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		275335E21793135700945E7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dynamics/Dynamics-Prefix.pch";
+				INFOPLIST_FILE = "Dynamics/Dynamics-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		275335B81793135700945E7B /* Build configuration list for PBXProject "Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275335DE1793135700945E7B /* Debug */,
+				275335DF1793135700945E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		275335E01793135700945E7B /* Build configuration list for PBXNativeTarget "Dynamics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				275335E11793135700945E7B /* Debug */,
+				275335E21793135700945E7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 275335B51793135700945E7B /* Project object */;
+}

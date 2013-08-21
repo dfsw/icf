@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8372CF314F7E5E2000076C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8372CF214F7E5E2000076C9 /* UIKit.framework */; };
+		D8372CF514F7E5E2000076C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8372CF414F7E5E2000076C9 /* Foundation.framework */; };
+		D8372CF714F7E5E2000076C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8372CF614F7E5E2000076C9 /* CoreGraphics.framework */; };
+		D8372CFD14F7E5E2000076C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8372CFB14F7E5E2000076C9 /* InfoPlist.strings */; };
+		D8372CFF14F7E5E2000076C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8372CFE14F7E5E2000076C9 /* main.m */; };
+		D8372D0314F7E5E2000076C9 /* ICFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8372D0214F7E5E2000076C9 /* ICFAppDelegate.m */; };
+		D8372D0614F7E5E2000076C9 /* ICFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8372D0514F7E5E2000076C9 /* ICFViewController.m */; };
+		D8372D0914F7E5E3000076C9 /* ICFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8372D0714F7E5E3000076C9 /* ICFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8372CEE14F7E5E2000076C9 /* Gesture Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8372CF214F7E5E2000076C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8372CF414F7E5E2000076C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8372CF614F7E5E2000076C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8372CFA14F7E5E2000076C9 /* Gesture Playground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gesture Playground-Info.plist"; sourceTree = "<group>"; };
+		D8372CFC14F7E5E2000076C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8372CFE14F7E5E2000076C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8372D0014F7E5E2000076C9 /* Gesture Playground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gesture Playground-Prefix.pch"; sourceTree = "<group>"; };
+		D8372D0114F7E5E2000076C9 /* ICFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICFAppDelegate.h; sourceTree = "<group>"; };
+		D8372D0214F7E5E2000076C9 /* ICFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICFAppDelegate.m; sourceTree = "<group>"; };
+		D8372D0414F7E5E2000076C9 /* ICFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICFViewController.h; sourceTree = "<group>"; };
+		D8372D0514F7E5E2000076C9 /* ICFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICFViewController.m; sourceTree = "<group>"; };
+		D8372D0814F7E5E3000076C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ICFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8372CEB14F7E5E2000076C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8372CF314F7E5E2000076C9 /* UIKit.framework in Frameworks */,
+				D8372CF514F7E5E2000076C9 /* Foundation.framework in Frameworks */,
+				D8372CF714F7E5E2000076C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8372CE314F7E5E1000076C9 = {
+			isa = PBXGroup;
+			children = (
+				D8372CF814F7E5E2000076C9 /* Gesture Playground */,
+				D8372CF114F7E5E2000076C9 /* Frameworks */,
+				D8372CEF14F7E5E2000076C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8372CEF14F7E5E2000076C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8372CEE14F7E5E2000076C9 /* Gesture Playground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8372CF114F7E5E2000076C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8372CF214F7E5E2000076C9 /* UIKit.framework */,
+				D8372CF414F7E5E2000076C9 /* Foundation.framework */,
+				D8372CF614F7E5E2000076C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8372CF814F7E5E2000076C9 /* Gesture Playground */ = {
+			isa = PBXGroup;
+			children = (
+				D8372D0114F7E5E2000076C9 /* ICFAppDelegate.h */,
+				D8372D0214F7E5E2000076C9 /* ICFAppDelegate.m */,
+				D8372D0414F7E5E2000076C9 /* ICFViewController.h */,
+				D8372D0514F7E5E2000076C9 /* ICFViewController.m */,
+				D8372D0714F7E5E3000076C9 /* ICFViewController.xib */,
+				D8372CF914F7E5E2000076C9 /* Supporting Files */,
+			);
+			path = "Gesture Playground";
+			sourceTree = "<group>";
+		};
+		D8372CF914F7E5E2000076C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8372CFA14F7E5E2000076C9 /* Gesture Playground-Info.plist */,
+				D8372CFB14F7E5E2000076C9 /* InfoPlist.strings */,
+				D8372CFE14F7E5E2000076C9 /* main.m */,
+				D8372D0014F7E5E2000076C9 /* Gesture Playground-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8372CED14F7E5E2000076C9 /* Gesture Playground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8372D0C14F7E5E3000076C9 /* Build configuration list for PBXNativeTarget "Gesture Playground" */;
+			buildPhases = (
+				D8372CEA14F7E5E2000076C9 /* Sources */,
+				D8372CEB14F7E5E2000076C9 /* Frameworks */,
+				D8372CEC14F7E5E2000076C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gesture Playground";
+			productName = "Gesture Playground";
+			productReference = D8372CEE14F7E5E2000076C9 /* Gesture Playground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8372CE514F7E5E1000076C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Explore Systems, Inc.";
+			};
+			buildConfigurationList = D8372CE814F7E5E1000076C9 /* Build configuration list for PBXProject "Gesture Playground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8372CE314F7E5E1000076C9;
+			productRefGroup = D8372CEF14F7E5E2000076C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8372CED14F7E5E2000076C9 /* Gesture Playground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8372CEC14F7E5E2000076C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8372CFD14F7E5E2000076C9 /* InfoPlist.strings in Resources */,
+				D8372D0914F7E5E3000076C9 /* ICFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8372CEA14F7E5E2000076C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8372CFF14F7E5E2000076C9 /* main.m in Sources */,
+				D8372D0314F7E5E2000076C9 /* ICFAppDelegate.m in Sources */,
+				D8372D0614F7E5E2000076C9 /* ICFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8372CFB14F7E5E2000076C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8372CFC14F7E5E2000076C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8372D0714F7E5E3000076C9 /* ICFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8372D0814F7E5E3000076C9 /* en */,
+			);
+			name = ICFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8372D0A14F7E5E3000076C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8372D0B14F7E5E3000076C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8372D0D14F7E5E3000076C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gesture Playground/Gesture Playground-Prefix.pch";
+				INFOPLIST_FILE = "Gesture Playground/Gesture Playground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8372D0E14F7E5E3000076C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Gesture Playground/Gesture Playground-Prefix.pch";
+				INFOPLIST_FILE = "Gesture Playground/Gesture Playground-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8372CE814F7E5E1000076C9 /* Build configuration list for PBXProject "Gesture Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8372D0A14F7E5E3000076C9 /* Debug */,
+				D8372D0B14F7E5E3000076C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8372D0C14F7E5E3000076C9 /* Build configuration list for PBXNativeTarget "Gesture Playground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8372D0D14F7E5E3000076C9 /* Debug */,
+				D8372D0E14F7E5E3000076C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8372CE514F7E5E1000076C9 /* Project object */;
+}

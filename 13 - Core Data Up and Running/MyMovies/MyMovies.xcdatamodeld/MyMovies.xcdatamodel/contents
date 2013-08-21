@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1800" systemVersion="11E2520" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Friend" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lentMovies" optional="YES" toMany="YES" deletionRule="Deny" destinationEntity="Movie" inverseName="lentToFriend" inverseEntity="Movie" syncable="YES"/>
+    </entity>
+    <entity name="Movie" representedClassName="ICFMovie" syncable="YES">
+        <attribute name="lent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lentOn" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="movieDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timesWatched" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lentToFriend" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Friend" inverseName="lentMovies" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Friend" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Movie" positionX="-279" positionY="39" width="128" height="150"/>
+    </elements>
+</model>
